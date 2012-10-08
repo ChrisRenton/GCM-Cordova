@@ -18,7 +18,7 @@ document.addEventListener('deviceready', function() {
   // This is the Cordova deviceready event. Once this is called Cordova is available to be used
   $("#app-status-ul").append('<li>deviceready event received</li>' );
 
-  $("#app-status-ul").append('<li>calling GCMRegistrar.register, register our Sender ID with Google</li>' );
+  $("#app-status-ul").append('<li>calling GCMRegistrar.register (AIzaSyB7t8KbH7SEBA2yw2UKhVw2RHEuQUSTZFs), register our Sender ID with Google</li>' );
 
 
   gApp.DeviceReady = true;
@@ -33,7 +33,7 @@ document.addEventListener('deviceready', function() {
   // CHANGE: your_app_id
   // TO: what ever your GCM authorized senderId is
   //
-  window.GCM.register("AIzaSyAZgny5ZEi_RZekIE8ma9yxDzvHuxsLYTY", "GCM_Event", GCM_Success, GCM_Fail );
+  window.GCM.register("AIzaSyB7t8KbH7SEBA2yw2UKhVw2RHEuQUSTZFs", "GCM_Event", GCM_Success, GCM_Fail );
 
 }, false );
 
