@@ -33,7 +33,7 @@ document.addEventListener('deviceready', function() {
   // CHANGE: your_app_id
   // TO: what ever your GCM authorized senderId is
   //
-  window.GCM.register("goatus@gmail.com", "GCM_Event", GCM_Success, GCM_Fail );
+  window.GCM.register("157390337510", "GCM_Event", GCM_Success, GCM_Fail );
 
 }, false );
 
