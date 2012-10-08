@@ -33,7 +33,7 @@ document.addEventListener('deviceready', function() {
   // CHANGE: your_app_id
   // TO: what ever your GCM authorized senderId is
   //
-  window.GCM.register("AIzaSyB7t8KbH7SEBA2yw2UKhVw2RHEuQUSTZFs", "GCM_Event", GCM_Success, GCM_Fail );
+  window.GCM.register("droid-notify", "GCM_Event", GCM_Success, GCM_Fail );
 
 }, false );
 
